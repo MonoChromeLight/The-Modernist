@@ -1,6 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 body{
 	color: white;
+	font-family: 'Merriweather', serif;
+
 }
 
 @media only screen and (min-width: 768px){
@@ -84,12 +86,24 @@ header.masthead .page-heading, header.masthead .site-heading {
 	background-color: #660000; 
 }
 section{
-	padding-top: 2em;
+	padding-top: 4em;
 	width: 100%;
 }
+
+h2{
+	margin: 0.5em auto;
+	font-family: 'Merriweather', serif;
+
+}
+
+h3{
+	font-family: 'Merriweather', serif;
+
+}
 .gallery-heading {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
+	margin-bottom: 1em;
 
 }
 
@@ -99,6 +113,68 @@ section{
 	content: "";
 	border-top: .3rem solid black;
 	width: 30%;
-	margin: 0 1rem;
+	margin: 0 ;
 	transform: translateY(-1rem);
 }
+
+footer{
+	background: #303030;
+}
+
+#footer {
+	padding-top: 4em;
+}
+
+#footer h3{
+	margin-bottom: 1.3em;
+}
+
+#footer > div > div > div > input{
+	width: 90%;
+	margin: 0.4em;
+}
+
+.copyright-row{
+	background: #2b2b2b;
+	border-top: 1px solid grey;
+	margin-top: 1.5em;
+	line-height: 3em;
+	text-align: center;
+}
+
+#footer a {
+	color: #76c38f;
+}
+span{
+	background: black;
+	border-radius: 20px;
+	padding: 0.3em;
+}
+
+.contact-btn{
+	background:#76c38f;
+	color: white;
+	border-radius:10px; 
+	border: 0;
+	box-shadow: none;
+	padding: 0 20px;
+	margin-top: 1em;
+	margin-left: 0.5em;
+	line-height: 2.5em;
+}
+
+button[type="submit"]  
+/* Or better yet try giving an ID or class if possible*/
+{
+ 
+}
+
+input{
+	background: black;
+	border: 0;
+	box-shadow: none;
+ 	border-radius: 10px;
+ 	padding-left: 10px;
+ 	line-height: 2em;
+}
+
